@@ -1,0 +1,33 @@
+# Python and analysis
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+analysis/outputs/
+analysis/cache/
+# Frontend and build
+node_modules/
+dist/
+.vite/
+coverage/
+# Secrets / local files
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.p8
+*.key
+*.log
+# Private source and reference media; never publish by default
+assets/raw/
+assets/reference/
+replay/public/media/
+*.mp4
+*.mov
+*.m4v
+*.heic
+*.HEIC
